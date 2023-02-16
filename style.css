@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #23252c;
+}
+
+.background-card {
+    margin: 20px;
+}
+
+.mainphoto {
+  border-radius: 10px 10px 0px 0px;
+  width: 317px;
+  height: 317px;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  padding: 0px 30px;
+  padding-top: 15px;
+}
+
+.info-main {
+  width: 317px;
+  height: 399px;
+  margin: 0;
+  background: #1a1b21;
+}
+
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0;
+}
+
+.job {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 1px;
+  text-align: center;
+  color: #f3bf99;
+}
+
+.site {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #f5f5f5;
+  margin: 50px;
+}
+
+.email-linkedin-buttons {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.email-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.email-button:link {
+    text-decoration: none;
+}
+
+.email-button:visited {
+    text-decoration: none;
+}
+
+.email-button:hover {
+    background-color: #d6d6d6;
+    text-decoration: none;
+}
+
+.email-button:active {
+    text-decoration: none;
+}
+
+.linkedin-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  background: #5093e2;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border: #ffffff;
+  border-radius: 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.linkedin-button:hover {
+    background-color: #315e92;
+    text-decoration: none;
+}
+
+.about-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5f5;
+  margin: 20px 0px 0px 0px;
+}
+
+.about-text {
+  width: 247px;
+  height: 61px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #dcdcdc;
+}
+
+.interest-title {
+  width: 242.71px;
+  height: 21px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5f5;
+  margin: 30px 0px 0px 0px;
+}
+
+.interest-text {
+  width: 247px;
+  height: 61px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #dcdcdc;
+  margin: 15px 0px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+  padding: 18px 50px 10px 50px;
+}
+
+footer > img {
+  width: 25px;
+  height: 25px;
+}
+
+footer > img:hover {
+    background-color: #d5d5d5;
+}
