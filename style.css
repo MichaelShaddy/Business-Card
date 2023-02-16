@@ -12,6 +12,27 @@ body {
     margin: 20px;
 }
 
+.themetoggle {
+  width: 317px;
+  height: 40px;
+}
+
+.themetoggle > label {
+  margin: 0;
+
+}
+
+.css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  font-family: 'Inter';
+  font-weight: 700;
+  color: rgb(222, 222, 222);
+}
+
 .mainphoto {
   border-radius: 10px 10px 0px 0px;
   width: 317px;
